@@ -1,0 +1,76 @@
+#heading{
+    color: blue;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+}
+.logo{
+    width: 50px;
+    padding: 30px;
+}
+.nav-item > ul{
+    display: flex;
+}
+.nav-item >ul >li{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+.res-logo{
+    
+    width: 100%;
+} 
+.res-card{
+margin: 5px;
+padding: 5px;
+width: 200px;
+height: 380px;
+border: 1px solid black;
+}
+.Res-Container{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 5px;
+
+
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+.search-btn{
+    margin: 8px;
+}
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.shimmer-card{
+    padding: 20px;
+    width: 100px;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin: 20px;
+
+
+}
+.state-btn{
+    margin: 5px;
+    
+}
+.search{
+    margin: 8px;
+    
+}
+.filter-btn{
+ display: flex;
+ margin-bottom:3px ;
+}
+.user-card{
+    padding: 5px;
+border: 1px solid black;
+}
