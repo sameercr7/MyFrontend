@@ -1,4 +1,4 @@
-#heading{
+/* #heading{
     color: blue;
 }
 .header{
@@ -73,4 +73,8 @@ border: 1px solid black;
 .user-card{
     padding: 5px;
 border: 1px solid black;
-}
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

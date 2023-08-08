@@ -27,8 +27,8 @@ const resInfo=useRestaurantMenu(resId);
   if(resInfo == null) return <Shier />
 
    const {itemCards}=
-   resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
-   const {cuisines,name,costForTwoMessage}=resInfo?.cards[0]?.card?.card?.info;
+   resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card || {};
+   const {cuisines,name,costForTwoMessage}=resInfo?.cards[0]?.card?.card?.info || {};
 
     return(
         <div className="menu">
